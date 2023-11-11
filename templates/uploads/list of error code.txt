@@ -1,0 +1,19 @@
+RSPN_CODE	RSPN_CODE_DEST	STAT_CODE	ERROR				SOLUTION
+00		00		1		SUCCESSFUL			SUCCESSFUL
+00		000		1		SUCCESSFUL			SUCCESSFUL
+702		005		3		DESTINATION_TIMED_OUT		Check_with_T24
+21		00		6		IGNORE_TRX			Check_with_Vendor
+30		005		6		FORMAT_ERROR			Check_with_Vendor
+703		005		6		MSG_SENDING_FAIL		Check_connection_network
+051		051		6		INSUFFICIENT_FUNDS		Check_balance_customer
+51		051		6		INSUFFICIENT_FUNDS		Check_balance_customer
+55		055		6		INVALID_PIN			Customer Type wrong PIN
+75		075		6		MAX_PIN_ERROR_COUNT_EXCEED	Contact branch unblock PIN
+76		14		6		INVALID_TO_ACCOUNT		Check account sendder and reciver
+116		51		6		INSUFFICIENT_FUNDS		Check_balance_customer
+54		54		6		EXPIRED_CARD			Contact bank update new card
+55		55		6		INVALID_PIN			Customer Type wrong PIN
+75		75		6		MAX_PIN_ERROR_COUNT_EXCEED	Contact branch unblock PIN
+703		96		6		MSG_SENDING_FAIL		Check_connection_network
+00		00		11		SUCCESSFUL			SUCCESSFUL
+058		58				Error CVV			Check_with_iSwitch
