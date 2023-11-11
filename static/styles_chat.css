@@ -379,9 +379,9 @@ main .send_btn {
 
 
 
-/* 
+
 .clickable-member {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 10px 10px;
   margin: 4px;
   font-size: 16px;
@@ -394,7 +394,7 @@ main .send_btn {
 
 .clickable-member:hover {
   background-color: rgb(196, 160, 6); 
-} */
+}
 
 .clickable-member {
   background-color: rgb(196, 160, 6); 
