@@ -219,11 +219,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="../templates/createuser.php">
+                <!-- <a href="../templates/createuser.php">
                     <span class="fa fa-user-circle-o">
                     </span>
                     <h3>Create User</h3>
-                </a>
+                </a> -->
                 <a href="../templates/search.php">
                     <span class="fa fa-search">
                     </span>

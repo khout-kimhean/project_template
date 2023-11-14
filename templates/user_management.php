@@ -33,11 +33,11 @@
                     </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="../templates/createuser.php">
+                <!-- <a href="../templates/createuser.php">
                     <span class="fa fa-user-circle-o">
                     </span>
                     <h3>Create User</h3>
-                </a>
+                </a> -->
                 <a href="../templates/search.php">
                     <span class="fa fa-search">
                     </span>
@@ -108,10 +108,37 @@
             </div>
         </aside>
         <main>
-            <div class="container2">
-                <div class="back_button">
-                    <a href="../Admin Dashboard/admin.php" class="back-button">
-                        <i class="fa fa-chevron-circle-left" style="font-size: 28px">Back</i>
+            <div class="back_button">
+                <a href="../Admin Dashboard/admin.php" class="back-button">
+                    <i class="fa fa-chevron-circle-left" style="font-size: 28px">Back</i>
+                </a>
+            </div>
+            <h1 class="h1">User Management</h1>
+            <!-- Analyses -->
+            <div class="analyse">
+                <div class="sales">
+                    <a href="../templates/createuser.php">
+                        <div class="status">
+                            <div class="info">
+                                <h1>Create User</h1>
+                            </div>
+                            <div>
+                                <img src="../Admin Dashboard/images/adduser.png">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="visits">
+                    <a href="../templates/assign_function.php">
+                        <div class="status">
+                            <div class="info">
+                                <h2>Assign</h2>
+                                <h1>Function</h1>
+                            </div>
+                            <div>
+                                <img src="../Admin Dashboard/images/move1.png">
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>

@@ -16,7 +16,7 @@ $(document).ready(function () {
 
     // Function to send initial welcome message
     function sendWelcomeMessage() {
-        const welcomeMessage = "Hello, Welcome to the Digital Card Payment Support Unit's Team Contact Center! I'm FTB Chatbot, ready to assist you. Please choose an option for technical support, or type to start a chat.";
+        const welcomeMessage = "Hello, welcome! CMS's Team Contact Center. I am FTB Chatbot, how may I help you? (Please select an option here for a technical issue, or you can type to start chat:)";
         displayBotMessage(welcomeMessage);
 
         // Display clickable team members at the bottom

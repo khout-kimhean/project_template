@@ -142,11 +142,11 @@ if (isset($_GET['delete'])) {
                     </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="#">
+                <!-- <a href="#">
                     <span class="fa fa-user-circle-o">
                     </span>
                     <h3>Create User</h3>
-                </a>
+                </a> -->
                 <a href="../templates/user_search.php">
                     <span class="fa fa-search">
                     </span>

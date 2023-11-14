@@ -6,26 +6,27 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../Admin Dashboard/admin.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../static/styles_chat.css">
+    <link rel="stylesheet" type="text/css" href="../Admin Dashboard/styles/assign_function.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
 </head>
 
 <body>
+
     <div class="container">
         <aside>
             <div class="toggle">
                 <div class="logo">
-                    <img src="http://localhost/template/Admin%20Dashboard/images/profile.jpg">
+                    <img src="../images/profile.jpg">
                     <h2>FTB <span class="danger">Bank</span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">
-                        close
+                        <!-- close -->
                     </span>
                 </div>
             </div>
+
             <div class="sidebar">
                 <a href="../Admin Dashboard/admin.php" class="active">
                     <span class="material-icons-sharp">
@@ -43,6 +44,13 @@
                     </span>
                     <h3>Search</h3>
                 </a>
+
+                <!-- <a href="../templates/input_data.php">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a> -->
                 <a href="../templates/email.php">
                     <span class="fa fa-address-card">
                     </span>
@@ -71,6 +79,21 @@
                     </span>
                     <h3>Query Data</h3>
                 </a>
+
+
+                <!-- test input staff data into database  -->
+
+                <!-- <a href="../templates/input_data.php">
+                    <span class="#">
+                    </span>
+                    <h3>Input Data</h3>
+                </a> -->
+                <!-- end insert staff data into database  -->
+
+
+
+
+
                 <a href="../templates/login.php">
                     <span class="material-icons-sharp">
                         add
@@ -86,36 +109,31 @@
             </div>
         </aside>
         <main>
-            <div class="container-fluid h-100">
-                <div class="row justify-content-center h-100">
-                    <div class="col-md-8 col-xl-6 chat">
-                        <div class="card background">
-                            <div class="card-header msg_head">
-                                <div class="d-flex bd-highlight">
-                                    <div class="img_cont">
-                                        <img src="http://localhost/template/Admin%20Dashboard/images/profile.jpg"
-                                            class="rounded-circle user_img">
-                                    </div>
-                                    <div class="user_info">
-                                        <span>ChatBot</span>
-                                        <p>Ask anything</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="messageFormeight" class="card-body msg_card_body">
-                            </div>
-                            <div class="send_message">
-                                <form id="messageArea" method="post" enctype="multipart/form-data">
-                                    <input type="text" id="text" name="msg" placeholder="Type your message..."
-                                        autocomplete="off" class="form-control type_msg" required />
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+            <div class="container2">
+                <div class="back_button">
+                    <a href="../templates/user_management.php" class="back-button">
+                        <i class="fa fa-chevron-circle-left" style="font-size: 25px">Back</i>
+                    </a>
+                </div>
+                <h2>Add Function to Role/Team User</h2>
+                <div class="select_role">
+                    <label for="role">Select User Role</label>
+                    <select name="user_type">
+                        <option value="admin">Admin</option>
+                        <option value="card payment team">Card Payment Team</option>
+                        <option value="digital branch team">Digital Branch Team</option>
+                        <option value="atm team">ATM Team</option>
+                        <option value="terminal team">Terminal Team</option>
+                        <option value="user">User</option>
+                    </select>
+                    <label class="label_input" for="role">User Name</label>
+                    <input type="text" name="name" required placeholder="enter your name">
+                </div>
+
+                <div class="checkbox-container">
+
                 </div>
             </div>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script src="../Admin Dashboard/chatscript.js"></script>
         </main>
         <div class="right-section">
             <div class="nav">
@@ -132,23 +150,30 @@
                         dark_mode
                     </span>
                 </div>
+
                 <div class="profile">
                     <div class="info">
                         <p>Welcome</p>
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="http://localhost/template/Admin%20Dashboard/images/profile.jpg">
+                        <img src="../images/profile.jpg">
                     </div>
                 </div>
+
             </div>
+            <!-- End of Nav -->
+
             <div class="user-profile">
                 <div class="logo">
-                    <img src="http://localhost/template/Admin%20Dashboard/images/profile.jpg">
-                    <h2>FTB Bank</h2>
-                    <p>Welcome to FTB Bank</p>
+                    <a href="https://ftb.com.kh/en/">
+                        <img src="../images/profile.jpg">
+                        <h2>FTB Bank </h2>
+                        <p>Welcome to FTB Bank</p>
+                    </a>
                 </div>
             </div>
+
             <div class="reminders">
                 <div class="header">
                     <h2>Reminders</h2>
@@ -156,6 +181,7 @@
                         notifications_none
                     </span>
                 </div>
+
                 <div class="notification">
                     <div class="icon">
                         <span class="material-icons-sharp">
@@ -174,6 +200,7 @@
                         </span>
                     </div>
                 </div>
+
                 <div class="notification deactive">
                     <div class="icon">
                         <span class="material-icons-sharp">
@@ -192,6 +219,7 @@
                         </span>
                     </div>
                 </div>
+
                 <div class="notification add-reminder">
                     <div>
                         <span class="material-icons-sharp">
@@ -200,9 +228,13 @@
                         <h3>Add Reminder</h3>
                     </div>
                 </div>
+
             </div>
+
         </div>
     </div>
+
+    <!-- <script src="orders.js"></script> -->
     <script src="../Admin Dashboard/index.js"></script>
 </body>
 

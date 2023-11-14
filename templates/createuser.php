@@ -61,7 +61,6 @@ $conn->close();
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
@@ -73,9 +72,7 @@ $conn->close();
     <title>Admin Dashboard</title>
 
 </head>
-
 <body>
-
     <div class="container">
         <!-- Sidebar Section -->
         <aside>
@@ -92,17 +89,17 @@ $conn->close();
             </div>
 
             <div class="sidebar">
-                <a href="../Admin Dashboard/admin.php">
+                <a href="../Admin Dashboard/admin.php" class="active">
                     <span class="material-icons-sharp">
                         dashboard
                     </span>
                     <h3>Dashboard</h3>
                 </a>
-                <a href="../templates/createuser.php" class="active">
+                <!-- <a href="../templates/createuser.php">
                     <span class="fa fa-user-circle-o">
                     </span>
                     <h3>Create User</h3>
-                </a>
+                </a> -->
                 <a href="../templates/search.php">
                     <span class="fa fa-search">
                     </span>
@@ -168,9 +165,6 @@ $conn->close();
                 </a>
             </div>
         </aside>
-        <!-- End of Sidebar Section -->
-
-        <!-- Main Content -->
         <main>
             <div class="form-container">
                 <form action="" method="post" id="create_user_form"> <!-- Add the id attribute to the form -->
@@ -183,7 +177,6 @@ $conn->close();
                         }
                     }
                     ?>
-
                     <input type="text" name="name" required placeholder="enter your name">
                     <input type="email" name="email" required placeholder="enter your email">
                     <input type="password" name="password" id="password" required placeholder="enter your password">
@@ -196,25 +189,20 @@ $conn->close();
                         echo '<span class="error-msg">Passwords do not match!</span>';
                     }
                     ?>
-
                     <select name="user_type">
-                        <option value="user">user</option>
-                        <option value="admin">admin</option>
+                        <option value="admin">Admin</option>
+                        <option value="card payment team">Card Payment Team</option>
+                        <option value="digital branch team">Digital Branch Team</option>
+                        <option value="atm team">ATM Team</option>
+                        <option value="terminal team">Terminal Team</option>
+                        <option value="user">User</option>
                     </select>
                     <input type="submit" name="submit" value="Create User" class="form-btn">
-                    <p><a href="../Admin Dashboard/admin.php" class="back-button"><i class="fa fa-chevron-circle-left"
+                    <p><a href="../templates/user_management.php" class="back-button"><i class="fa fa-chevron-circle-left"
                                 style="font-size:38px"></i></a></p>
                 </form>
             </div>
-
-
         </main>
-
-
-
-        <!-- End of Main Content -->
-
-        <!-- Right Section -->
         <div class="right-section">
             <div class="nav">
                 <button id="menu-btn">
@@ -311,9 +299,7 @@ $conn->close();
 
         </div>
     </div>
-
     <!-- <script src="orders.js"></script> -->
     <script src="../Admin Dashboard/index.js"></script>
 </body>
-
 </html>

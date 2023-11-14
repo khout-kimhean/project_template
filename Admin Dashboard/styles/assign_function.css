@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
   --color-primary: #6c9bcf;
@@ -225,8 +226,9 @@ aside .sidebar .message-count {
 
 /* main  */
 
-/* .container2 {
-  display: flex;
+.container2 {
+  margin-top: 70px;
+  display: inline-block;
   background-color: var(--color-white);
   padding: var(--card-padding);
   border-radius: var(--card-border-radius);
@@ -234,77 +236,77 @@ aside .sidebar .message-count {
   height: 700px;
   width: 100%;
   color: var(--color-dark);
+}
+.container2 .back_button a {
+  color: rgb(196, 160, 6);
+}
+.container2 h2 {
+  font-family: cursive, sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container2 select {
+  width: 30%;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: cursive, sans-serif;
+  outline: 0;
+  background: var(--color-white);
+  padding: 8px;
+  border-radius: var(--card-border-radius);
+}
+.container2 .select_role label {
+  font-size: 14px;
+  border: 1px solid #ccc;
+  font-family: cursive, sans-serif;
+  background-color: var(--color-white);
+  padding: 10px;
+  color: #202528;
+  border-radius: var(--card-border-radius);
+}
+.container2 .label_input{
+    margin-left: 60px;
+}
+.container2 input {
+    width: 35%;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  font-family: cursive, sans-serif;
+  background-color: var(--color-white);
+  padding: 10px;
+  color: #202528;
+  border-radius: var(--card-border-radius);
+}
+/* 
+.container2 .assign_function {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
 } */
 
-.back_button a{
-  margin-top: 70px;
-    color: rgb(196, 160, 6);
+.checkbox-container body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-
-
-
-main{  
-  font-family: cursive, sans-serif;
-  margin-top: 70px;
+.checkbox-container ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-main .analyse{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
+.checkbox-container label {
+  display: block;
 }
 
-main .analyse > div{
-  background-color: var(--color-white);
-  padding: var(--card-padding);
-  border-radius: var(--card-border-radius);
-  margin-top: 2rem;
-  margin-bottom   : 2rem;
-  box-shadow: var(--box-shadow);
-  cursor: pointer;
-  transition: all 0.3s ease;
+.checkbox-container input[type="checkbox"] {
+  margin-right: 5px;
 }
-
-main .analyse > div:hover{
-  background-color: rgb(196, 160, 6);
-  box-shadow: none;
-}
-
-main .analyse > div .status{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-main .analyse h3{
-  font-family: cursive, sans-serif;
-  margin-left: 0.6rem;
-  font-size: 1rem;
-}
-
-main .analyse .progresss{
-  font-family: cursive, sans-serif;
-  position: relative;
-  width: 92px;
-  height: 92px;
-  border-radius: 50%;
-}
-
-main .analyse .progresss .percentage{
-  font-family: cursive, sans-serif;
-  position: absolute;
-  top: -3px;
-  left: -1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-
-
-
 /* end main  */
 
 .right-section {
