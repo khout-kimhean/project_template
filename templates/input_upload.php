@@ -163,7 +163,8 @@ if (isset($_POST['submit'])) {
                     </span>
                     <h3>Search</h3>
                 </a>
-                <!-- <a href="#">
+
+                <!-- <a href="../templates/input_data.php">
                     <span class="material-icons-sharp">
                         insights
                     </span>
@@ -177,7 +178,7 @@ if (isset($_POST['submit'])) {
                 <a href="../templates/multi_upload.php" class="active">
                     <span class="fa fa-upload">
                     </span>
-                    <h3>Multi_Upload</h3>
+                    <h3>Data Store</h3>
                 </a>
                 <a href="../templates/list_upload.php">
                     <span class="material-icons-sharp">
@@ -187,34 +188,34 @@ if (isset($_POST['submit'])) {
                 </a>
                 <a href="../templates/assessment.php">
                     <span class="fa fa-address-book">
-                    <!-- fab fa-app-store-ios -->
+                        <!-- fab fa-app-store-ios -->
                     </span>
                     <h3>Assessment</h3>
                 </a>
-                <a href="../templates/query_tb.php">
+                <!-- <a href="../templates/query_tb.php">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
                     <h3>Query Data</h3>
-                </a>
-                <!-- <a href="#">
-                    <span class="material-icons-sharp">
-                        report_gmailerrorred
-                    </span>
-                    <h3>Reports</h3>
-                </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        settings
-                    </span>
-                    <h3>Settings</h3>
                 </a> -->
-                <a href="../templates/login.php">
-                    <span class="material-icons-sharp">
-                        add
+
+                <a href="../templates/user_management.php">
+                    <span class="fa fa-user-circle">
                     </span>
-                    <h3>New Login</h3>
+                    <h3>User Mgt</h3>
                 </a>
+                <a href="../templates/todo_management.php">
+                    <span class="fa fa-list-alt">
+                    </span>
+                    <h3>To-do List</h3>
+                </a>
+                <a href="../templates/stock_management.php">
+                    <span class="fa fa-briefcase">
+                    </span>
+                    <h3>Stock Mgt</h3>
+                </a>
+
+
                 <a href="../templates/logout.php">
                     <span class="material-icons-sharp">
                         logout
@@ -228,7 +229,7 @@ if (isset($_POST['submit'])) {
                 <div class="wrapper">
                     <div class="back_button">
                         <a href="../templates/multi_upload.php" class="back-button">
-                            <i class="fa fa-chevron-circle-left" style="font-size: 35px">Back</i>
+                            <i class="fa fa-chevron-circle-left" style="font-size: 25px">Back</i>
                         </a>
                     </div>
                     <form method="post" enctype="multipart/form-data"> <!-- Replace with your PHP file name -->
@@ -248,10 +249,11 @@ if (isset($_POST['submit'])) {
                             <label for="short_description">Short Description:</label>
                             <input type="text" name="short_description" class="form-control" id="short_description">
                         </div>
+                        <!-- <label for="short_description">Short Description:</label> -->
                         <!-- <label for="short_description">Description:</label> -->
                         <textarea id="myTextarea" name="description"></textarea>
                         <div class="form-group">
-                            <input type="submit" name="submit" value="Upload" class="btn btn-primary">
+                            <input type="submit" name="submit" value="Save" class="btn btn-primary">
                         </div>
                     </form>
                     <div class="alert alert-<?php echo $alertType; ?> text-center">

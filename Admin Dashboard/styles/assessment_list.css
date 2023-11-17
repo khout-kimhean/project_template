@@ -161,7 +161,7 @@ margin-left: 10px;
   border-radius: var(--card-border-radius);
   box-shadow: var(--box-shadow);
   /* height: 900px; */
-  width: 100%;
+  /* width: 100%; */
   color: var(--color-dark);
   overflow: auto; 
 }

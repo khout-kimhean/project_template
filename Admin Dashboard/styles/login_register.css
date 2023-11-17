@@ -234,6 +234,8 @@ main .form-container form {
     box-shadow: var(--box-shadow);
     text-align: center;
     margin: 70px 10px;
+    /* height: 690px; */
+    /* width: 1200px; */
 }
 
 main .form-container form h3 {

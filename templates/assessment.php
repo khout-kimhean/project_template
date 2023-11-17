@@ -44,7 +44,8 @@
                     </span>
                     <h3>Search</h3>
                 </a>
-                <!-- <a href="#" >
+
+                <!-- <a href="../templates/input_data.php">
                     <span class="material-icons-sharp">
                         insights
                     </span>
@@ -58,7 +59,7 @@
                 <a href="../templates/multi_upload.php">
                     <span class="fa fa-upload">
                     </span>
-                    <h3>Multi_Upload</h3>
+                    <h3>Data Store</h3>
                 </a>
                 <a href="../templates/list_upload.php">
                     <span class="material-icons-sharp">
@@ -72,19 +73,30 @@
                     </span>
                     <h3>Assessment</h3>
                 </a>
-                <a href="../templates/query_tb.php">
+                <!-- <a href="../templates/query_tb.php">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
                     <h3>Query Data</h3>
+                </a> -->
+
+                <a href="../templates/user_management.php">
+                    <span class="fa fa-user-circle">
+                    </span>
+                    <h3>User Mgt</h3>
+                </a>
+                <a href="../templates/todo_management.php">
+                    <span class="fa fa-list-alt">
+                    </span>
+                    <h3>To-do List</h3>
+                </a>
+                <a href="../templates/stock_management.php">
+                    <span class="fa fa-briefcase">
+                    </span>
+                    <h3>Stock Mgt</h3>
                 </a>
 
-                <a href="../templates/login.php">
-                    <span class="material-icons-sharp">
-                        add
-                    </span>
-                    <h3>New Login</h3>
-                </a>
+
                 <a href="../templates/logout.php">
                     <span class="material-icons-sharp">
                         logout
@@ -97,105 +109,88 @@
 
         <!-- Main Content -->
         <main>
-            <h1 class="h1">Assessment</h1>
-            <!-- Analyses -->
-            <div  class="analyse">
-                <div class="sales">
-                    <div class="status">
-                        <div class="info">
-                            <a href="../templates/newuser_assessment.php">
-                                <h1>New User</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="../templates/newuser_assessment.php">
-                                <img src="../Admin Dashboard/images/adduser.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="visits">
-                    <div class="status">
-                        <div class="info">
-                            <a href="../templates/search_move.php">
-                                <h1>Move User</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="../templates/search_move.php">
-                                <img src="../Admin Dashboard/images/move1.png">
-                            </a>
+            <Div class="container2">
+                <h1 class="h1">Assessment</h1>
+                <!-- Analyses -->
+                <div class="analyse">
+                    <div class="sales">
+                        <div class="status">
+                            <div class="info">
+                                <a href="../templates/newuser_assessment.php">
+                                    <h1>New User</h1>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="../templates/newuser_assessment.php">
+                                    <img src="../Admin Dashboard/images/adduser.png">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="searches">
-                    <div class="status">
-                        <div class="info">
-                            <a href="../templates/search_resign.php">
-                                <h1>User Resign</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="../templates/search_resign.php">
-                                <img src="../Admin Dashboard/images/move.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <h1>Assessment</h1> -->
-            <div class="analyse">
-                <div class="sales">
-                    <div class="status">
-                        <div class="info">
-                            <a href="../templates/summary.php">
-                                <h1>View Data</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="../templates/summary.php">
-                                <img src="../Admin Dashboard/images/view1.png">
-                            </a>
+                    <div class="visits">
+                        <div class="status">
+                            <div class="info">
+                                <a href="../templates/search_move.php">
+                                    <h1>Move User</h1>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="../templates/search_move.php">
+                                    <img src="../Admin Dashboard/images/move1.png">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="searches">
+                        <div class="status">
+                            <div class="info">
+                                <a href="../templates/search_resign.php">
+                                    <h1>User Resign</h1>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="../templates/search_resign.php">
+                                    <img src="../Admin Dashboard/images/move.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="visits">
+                </div>
+                <!-- <h1>Assessment</h1> -->
+                <div class="analyse">
                     <div class="status">
-                        <div class="info">
-                            <a href="../templates/assessment_list.php">
-                                <h1>List Assessment</h1>
-                            </a>
+                        <div class="status">
+                            <div class="info">
+                                <a href="../templates/summary.php">
+                                    <h1>View Data</h1>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="../templates/summary.php">
+                                    <img src="../Admin Dashboard/images/file.png">
+                                </a>
+                            </div>
                         </div>
-                        <div>
-                            <a href="../templates/assessment_list.php">
-                                <img src="../Admin Dashboard/images/folder.png">
-                            </a>
+                    </div>
+                    <div class="visits">
+                        <div class="status">
+                            <div class="info">
+                                <a href="../templates/assessment_list.php">
+                                    <h1>List Assessment</h1>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="../templates/assessment_list.php">
+                                    <img src="../Admin Dashboard/images/file.png">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="searches">
-                    <div class="status">
-                        <div class="info">
-                            <a href="../templates/insert_contact.php">
-                                <h1>Insert Email</h1>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="../templates/insert_contact.php">
-                                <img src="../Admin Dashboard/images/more.png">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            </Div>
 
         </main>
-        <!-- End of Main Content -->
-
-        <!-- Right Section -->
         <div class="right-section">
             <div class="nav">
                 <button id="menu-btn">
@@ -215,10 +210,10 @@
                 <div class="profile">
                     <div class="info">
                         <p>Welcome</p>
-                        <small class="text-muted">Assessment</small>
+                        <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="../images/profile.jpg">
+                        <img src="../Admin Dashboard/images/profile.jpg">
                     </div>
                 </div>
 
@@ -227,8 +222,8 @@
 
             <div class="user-profile">
                 <div class="logo">
-                    <img src="../images/profile.jpg">
-                    <h2>FTB Bank </h2>
+                    <img src="../Admin Dashboard/images/profile.jpg">
+                    <h2>FTB Bank</h2>
                     <p>Welcome to FTB Bank</p>
                 </div>
             </div>

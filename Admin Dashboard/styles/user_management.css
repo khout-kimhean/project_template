@@ -236,26 +236,33 @@ aside .sidebar .message-count {
   color: var(--color-dark);
 } */
 
-.back_button a{
+
+.container2 {
+  font-family: cursive, sans-serif;
   margin-top: 70px;
-    color: rgb(196, 160, 6);
+  display: inline-block;
+  background-color: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  height: 700px;
+  /* width: 1290px; */
+  color: var(--color-dark);
 }
 
-
-
-
+/* 
 main{  
   font-family: cursive, sans-serif;
   margin-top: 70px;
-}
+} */
 
-main .analyse{
+.container2 .analyse{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
 }
 
-main .analyse > div{
+.container2 .analyse > div{
   background-color: var(--color-white);
   padding: var(--card-padding);
   border-radius: var(--card-border-radius);
@@ -264,26 +271,38 @@ main .analyse > div{
   box-shadow: var(--box-shadow);
   cursor: pointer;
   transition: all 0.3s ease;
+  border: 1px solid #ccc;
 }
-
-main .analyse > div:hover{
+.container2 .analyse .sales img {
+  width: 4.6rem;
+  height: 4.6rem;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
+.container2 .analyse  img {
+  width: 5.5rem;
+  height: 5.5rem;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
+.container2 .analyse > div:hover{
   background-color: rgb(196, 160, 6);
   box-shadow: none;
 }
 
-main .analyse > div .status{
+.container2 .analyse > div .status{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-main .analyse h3{
+.container2 .analyse h3{
   font-family: cursive, sans-serif;
   margin-left: 0.6rem;
   font-size: 1rem;
 }
 
-main .analyse .progresss{
+.container2 .analyse .progresss{
   font-family: cursive, sans-serif;
   position: relative;
   width: 92px;
@@ -291,7 +310,7 @@ main .analyse .progresss{
   border-radius: 50%;
 }
 
-main .analyse .progresss .percentage{
+.container2 .analyse .progresss .percentage{
   font-family: cursive, sans-serif;
   position: absolute;
   top: -3px;

@@ -154,8 +154,32 @@ aside .toggle .logo img {
 
 /* main  */
 
+
+
+
+/* main */
+
+
+
+
+.msg_cotainer {
+  margin-left: 0;
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  
+}
+
+
+/* start  */
 .cotainer_send {
-  /* background-image: ; */
   justify-content: flex-end;
   margin-top: 10px;
   display: flex;
@@ -327,7 +351,7 @@ main .send_btn {
 
 .d-flex.justify-content-start.mb-4 {
   display: flex;
-  align-items: flex-start; /* Align items to the start of the container */
+  align-items: flex-start; 
 }
 
 .user_img_msg {
@@ -380,10 +404,40 @@ main .send_btn {
 
 
 
+.clickable-member:hover {
+  background-color: rgb(196, 160, 6); 
+}
+
 .clickable-member {
-  /* display: inline-block; */
+  background-color: rgb(196, 160, 6); 
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.clickable-subcategory {
+  padding: 10px;
+  background-color: rgb(196, 160, 6);
+  color: white;
+  border: none;
+  margin: 6px;
+  display: flex;
+  align-self: start;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+
+
+.clickable-member {
   padding: 10px 10px;
-  margin: 4px;
+  margin: 2px;
+  width: 230px;
   font-size: 16px;
   background-color:rgb(196, 160, 6) ; 
   color: var(--color-dark); 
@@ -410,16 +464,6 @@ main .send_btn {
   background-color: rgb(196, 160, 6); 
 }
 
-
-.clickable-subcategory {
-  padding: 10px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-}
 
 .clickable-subcategory:hover {
   background-color: rgb(196, 160, 6); 

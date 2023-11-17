@@ -94,7 +94,7 @@ $result = $conn->query($sql);
                 <a href="../templates/multi_upload.php">
                     <span class="fa fa-upload">
                     </span>
-                    <h3>Multi_Upload</h3>
+                    <h3>Data Store</h3>
                 </a>
                 <a href="../templates/list_upload.php">
                     <span class="material-icons-sharp">
@@ -108,33 +108,30 @@ $result = $conn->query($sql);
                     </span>
                     <h3>Assessment</h3>
                 </a>
-                <a href="../templates/query_tb.php">
+                <!-- <a href="../templates/query_tb.php">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
                     <h3>Query Data</h3>
-                </a>
-
-
-                <!-- test input staff data into database  -->
-
-                <!-- <a href="../templates/input_data.php">
-                    <span class="#">
-                    </span>
-                    <h3>Input Data</h3>
                 </a> -->
-                <!-- end insert staff data into database  -->
-
-
-
-
-
-                <a href="../templates/login.php">
-                    <span class="material-icons-sharp">
-                        add
+                
+                <a href="../templates/user_management.php">
+                    <span class="fa fa-user-circle">
                     </span>
-                    <h3>New Login</h3>
+                    <h3>User Mgt</h3>
                 </a>
+                <a href="../templates/todo_management.php">
+                    <span class="fa fa-list-alt">
+                    </span>
+                    <h3>To-do List</h3>
+                </a>
+                <a href="../templates/stock_management.php">
+                    <span class="fa fa-briefcase">
+                    </span>
+                    <h3>Stock Mgt</h3>
+                </a>
+
+
                 <a href="../templates/logout.php">
                     <span class="material-icons-sharp">
                         logout
@@ -146,56 +143,54 @@ $result = $conn->query($sql);
 
         <!-- Main Content -->
         <main>
-            <h1>Manage</h1>
+        <h1>Analytics</h1>
             <!-- Analyses -->
             <div class="analyse">
                 <div class="sales">
-                    <a href="https://ftb.com.kh/en/">
-                        <div class="status">
-                            <div class="info">
-                                <a href="../templates/user_management.php">
-                                    <h1>User</h1>
-                                    <h1>Management</h1>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="../templates/user_management.php">
-                                    <img src="../Admin Dashboard/images/move1.png">
-                                </a>
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>$70,000</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+81%</p>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-
                 <div class="visits">
-                    <a href="https://ftb.com.kh/en/">
-                        <div class="status">
-                            <div class="info">
-                                <a href="../templates/todo_management.php">
-                                    <h1>To-do</h1>
-                                    <h1>Management</h1>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="../templates/todo_management.php">
-                                    <img src="../Admin Dashboard/images/move1.png">
-                                </a>
+                    <div class="status">
+                        <div class="info">
+                            <h3>Site Visit</h3>
+                            <h1>9,854</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-48%</p>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="searches">
                     <div class="status">
                         <div class="info">
-                            <a href="../templates/stock_management.php">
-                                <h1>Stock</h1>
-                                <h1>Management</h1>
-                            </a>
+                            <h3>Searches</h3>
+                            <h1>14,147</h1>
                         </div>
-                        <div>
-                            <a href="../templates/stock_management.php">
-                                <img src="../Admin Dashboard/images/move1.png">
-                            </a>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+21%</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -206,7 +201,7 @@ $result = $conn->query($sql);
                 <div class="user-list">
                     <div class="user">
                         <a href="../templates/chat.html">
-                            <img src="images/chatbot.png" alt="ChatBot">
+                            <img src="images/chat.png" alt="ChatBot" >
                             <h2>ChatBot</h2>
                             <p>User ChatBot Here</p>
                         </a>
@@ -214,23 +209,23 @@ $result = $conn->query($sql);
                     <div class="user">
                         <a href="../templates/datachat.php">
                             <!-- <i class="fa fa-upload" style="font-size:75px;color:blue"></i> -->
-                            <img src="images/upload.png" alt="Upload File">
-                            <h2>Upload</h2>
-                            <p>upload data for chat</p>
+                            <img src="images/images.png" alt="Upload File">
+                            <h2>Data Chat</h2>
+                            <p>input data for chat</p>
                         </a>
                     </div>
                     <div class="user">
                         <a href="../templates/view_upload.php">
-                            <img src="images/file.png" alt="Show File">
-                            <h2>View Data</h2>
+                            <img src="images/data.png" alt="Show File">
+                            <h2>Data Input</h2>
                             <p>Click here to view data</p>
                         </a>
                     </div>
                     <div class="user">
-                        <a href="../templates/assessment.php">
-                            <img src="images/user.png" alt="More">
-                            <h2>User</h2>
-                            <p>User Assessment</p>
+                        <a href="../templates/read_file.php">
+                            <img src="images/file.png" alt="More">
+                            <h2>File Reader</h2>
+                            <p>File Reader</p>
                         </a>
                     </div>
                 </div>

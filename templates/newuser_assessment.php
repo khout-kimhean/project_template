@@ -87,7 +87,7 @@ if (isset($_POST['submit'])) {
             </div>
 
             <div class="sidebar">
-                <a href="../Admin Dashboard/admin.php">
+            <a href="../Admin Dashboard/admin.php">
                     <span class="material-icons-sharp">
                         dashboard
                     </span>
@@ -103,7 +103,8 @@ if (isset($_POST['submit'])) {
                     </span>
                     <h3>Search</h3>
                 </a>
-                <!-- <a href="#" >
+
+                <!-- <a href="../templates/input_data.php">
                     <span class="material-icons-sharp">
                         insights
                     </span>
@@ -117,7 +118,7 @@ if (isset($_POST['submit'])) {
                 <a href="../templates/multi_upload.php">
                     <span class="fa fa-upload">
                     </span>
-                    <h3>Multi_Upload</h3>
+                    <h3>Data Store</h3>
                 </a>
                 <a href="../templates/list_upload.php">
                     <span class="material-icons-sharp">
@@ -131,24 +132,30 @@ if (isset($_POST['submit'])) {
                     </span>
                     <h3>Assessment</h3>
                 </a>
-                <a href="../templates/query_tb.php">
+                <!-- <a href="../templates/query_tb.php">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
                     <h3>Query Data</h3>
-                </a>
-                <!-- <a href="#">
-                    <span class="material-icons-sharp">
-                        settings
+                </a> -->
+
+                <a href="../templates/user_management.php">
+                    <span class="fa fa-user-circle">
                     </span>
-                    <h3>Settings</h3>
-                </a>  -->
-                <a href="../templates/login.php">
-                    <span class="material-icons-sharp">
-                        add
-                    </span>
-                    <h3>New Login</h3>
+                    <h3>User Mgt</h3>
                 </a>
+                <a href="../templates/todo_management.php">
+                    <span class="fa fa-list-alt">
+                    </span>
+                    <h3>To-do List</h3>
+                </a>
+                <a href="../templates/stock_management.php">
+                    <span class="fa fa-briefcase">
+                    </span>
+                    <h3>Stock Mgt</h3>
+                </a>
+
+
                 <a href="../templates/logout.php">
                     <span class="material-icons-sharp">
                         logout

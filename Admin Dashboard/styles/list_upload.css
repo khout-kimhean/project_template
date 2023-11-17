@@ -225,6 +225,7 @@ aside .sidebar a:hover span {
   margin-top: 75px;
   margin-bottom: 30px;
   max-height: 690px;
+  /* width: 1300px; */
   overflow-y: auto;
   color: var(--color-dark);
 }

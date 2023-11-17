@@ -63,7 +63,7 @@ $result = $conn->query($sql);
             </div>
 
             <div class="sidebar">
-                <a href="../Admin Dashboard/admin.php" class="active">
+            <a href="../Admin Dashboard/admin.php" class="active">
                     <span class="material-icons-sharp">
                         dashboard
                     </span>
@@ -79,7 +79,8 @@ $result = $conn->query($sql);
                     </span>
                     <h3>Search</h3>
                 </a>
-                <!-- <a href="#">
+
+                <!-- <a href="../templates/input_data.php">
                     <span class="material-icons-sharp">
                         insights
                     </span>
@@ -90,10 +91,10 @@ $result = $conn->query($sql);
                     </span>
                     <h3>Contact</h3>
                 </a>
-                <a href="#">
+                <a href="../templates/multi_upload.php">
                     <span class="fa fa-upload">
                     </span>
-                    <h3>Multi_Upload</h3>
+                    <h3>Data Store</h3>
                 </a>
                 <a href="../templates/list_upload.php">
                     <span class="material-icons-sharp">
@@ -103,28 +104,34 @@ $result = $conn->query($sql);
                 </a>
                 <a href="../templates/assessment.php">
                     <span class="fa fa-address-book">
-                    <!-- fab fa-app-store-ios -->
+                        <!-- fab fa-app-store-ios -->
                     </span>
                     <h3>Assessment</h3>
                 </a>
-                <!-- <a href="#">
+                <!-- <a href="../templates/query_tb.php">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
-                    <h3>Reports</h3>
-                </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        settings
-                    </span>
-                    <h3>Settings</h3>
+                    <h3>Query Data</h3>
                 </a> -->
-                <a href="../templates/login.php">
-                    <span class="material-icons-sharp">
-                        add
+
+                <a href="../templates/user_management.php">
+                    <span class="fa fa-user-circle">
                     </span>
-                    <h3>New Login</h3>
+                    <h3>User Mgt</h3>
                 </a>
+                <a href="../templates/todo_management.php">
+                    <span class="fa fa-list-alt">
+                    </span>
+                    <h3>To-do List</h3>
+                </a>
+                <a href="../templates/stock_management.php">
+                    <span class="fa fa-briefcase">
+                    </span>
+                    <h3>Stock Mgt</h3>
+                </a>
+
+
                 <a href="../templates/logout.php">
                     <span class="material-icons-sharp">
                         logout

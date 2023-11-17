@@ -225,8 +225,7 @@ aside .sidebar .message-count {
 
 /* main  */
 
-.container2 {
-  margin-top: 70px;
+/* .container2 {
   display: flex;
   background-color: var(--color-white);
   padding: var(--card-padding);
@@ -235,10 +234,97 @@ aside .sidebar .message-count {
   height: 700px;
   width: 100%;
   color: var(--color-dark);
-}
-.container2 .back_button a{
+} */
+
+.back_button a{
+  margin-top: 70px;
     color: rgb(196, 160, 6);
 }
+
+
+
+
+/* main{  
+  font-family: cursive, sans-serif;
+  margin-top: 70px;
+} */
+.container2 {
+  font-family: cursive, sans-serif;
+  margin-top: 70px;
+  display: inline-block;
+  background-color: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+  height: 690px;
+  width: 100%;
+  /* width: 1290px; */
+  color: var(--color-dark);
+}
+
+.container2 .analyse{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.container2 .analyse > div{
+  /* background-color: rgb(12, 77, 162); */
+  /* color: #edeffd; */
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  margin-top: 2rem;
+  margin-bottom   : 2rem;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+}
+
+.container2 .analyse > div:hover{
+  background-color: rgb(196, 160, 6);
+  box-shadow: none;
+}
+
+.container2 .analyse > div .status{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container2 .analyse h3{
+  font-family: cursive, sans-serif;
+  margin-left: 0.6rem;
+  font-size: 1rem;
+}
+
+.container2 .analyse .progresss{
+  font-family: cursive, sans-serif;
+  position: relative;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+.container2 .analyse .progresss .percentage{
+  font-family: cursive, sans-serif;
+  position: absolute;
+  top: -3px;
+  left: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* width: 100%; */
+}
+.container2 .analyse img {
+  width: 5.4rem;
+  height: 5.4rem;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
+
+
 
 /* end main  */
 

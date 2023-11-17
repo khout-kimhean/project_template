@@ -130,9 +130,336 @@
                     <input type="text" name="name" required placeholder="enter your name">
                 </div>
 
-                <div class="checkbox-container">
-                    
+                <div class="dashboard">
+                    <h2>Dashboard</h2>
+                    <div class="container3">
+                        <input type="checkbox" id="input-1" class="check-input">
+                        <label for="input-1" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>User Mgt</span>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-2" class="check-input">
+                        <label for="input-2" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>Todo List</span>
+                        <div class="list">
+                            <div class="container3">
+                                <input type="checkbox" id="input-18" class="check-input">
+                                <label for="input-18" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Admin</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-19" class="check-input">
+                                <label for="input-19" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>User</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-20" class="check-input">
+                                <label for="input-20" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Card Payment Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-21" class="check-input">
+                                <label for="input-21" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Digital Branch Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-22" class="check-input">
+                                <label for="input-22" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>ATM Network Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-23" class="check-input">
+                                <label for="input-23" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Terminal Mgt Team</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-3" class="check-input">
+                        <label for="input-3" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>Stock Mgt</span>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-4" class="check-input">
+                        <label for="input-4" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>Chatbot</span>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-5" class="check-input">
+                        <label for="input-5" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>Upload Chat</span>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-6" class="check-input">
+                        <label for="input-6" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>View</span>
+                        <div class="list">
+                            <div class="container3">
+                                <input type="checkbox" id="input-24" class="check-input">
+                                <label for="input-24" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Admin</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-25" class="check-input">
+                                <label for="input-25" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>User</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-26" class="check-input">
+                                <label for="input-26" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Card Payment Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-27" class="check-input">
+                                <label for="input-27" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Digital Branch Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-28" class="check-input">
+                                <label for="input-28" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>ATM Network Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-29" class="check-input">
+                                <label for="input-29" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Terminal Mgt Team</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-7" class="check-input">
+                        <label for="input-7" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>User Assessment</span>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-8" class="check-input">
+                        <label for="input-8" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>Search</span>
+                        <div class="list">
+                            <div class="container3">
+                                <input type="checkbox" id="input-30" class="check-input">
+                                <label for="input-30" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Admin</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-31" class="check-input">
+                                <label for="input-31" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>User</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-32" class="check-input">
+                                <label for="input-32" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Card Payment Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-33" class="check-input">
+                                <label for="input-33" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Digital Branch Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-34" class="check-input">
+                                <label for="input-34" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>ATM Network Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-35" class="check-input">
+                                <label for="input-35" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Terminal Mgt Team</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-9" class="check-input">
+                        <label for="input-9" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>Contact</span>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-10" class="check-input">
+                        <label for="input-10" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>Upload File</span>
+                    </div>
+                    <div class="container3">
+                        <input type="checkbox" id="input-11" class="check-input">
+                        <label for="input-11" class="checkbox">
+                            <svg viewBox="0 0 22 16" fill="none">
+                                <path d="M1 6.85L8.09677 14L21 1" />
+                            </svg>
+                        </label>
+                        <span>View File</span>
+                        <div class="list">
+                            <div class="container3">
+                                <input type="checkbox" id="input-12" class="check-input">
+                                <label for="input-12" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Admin</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-13" class="check-input">
+                                <label for="input-13" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>User</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-14" class="check-input">
+                                <label for="input-14" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Card Payment Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-15" class="check-input">
+                                <label for="input-15" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Digital Branch Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-16" class="check-input">
+                                <label for="input-16" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>ATM Network Team</span>
+                            </div>
+                            <div class="container3">
+                                <input type="checkbox" id="input-17" class="check-input">
+                                <label for="input-17" class="checkbox">
+                                    <svg viewBox="0 0 22 16" fill="none">
+                                        <path d="M1 6.85L8.09677 14L21 1" />
+                                    </svg>
+                                </label>
+                                <span>Terminal Mgt Team </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <form action="../templates/assign_function.php">
+                    <input type="submit" name="submit" value="Assign Function" class="form-btn">
+                </form>
+
             </div>
         </main>
         <div class="right-section">

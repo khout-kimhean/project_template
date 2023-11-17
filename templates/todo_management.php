@@ -27,7 +27,7 @@
             </div>
 
             <div class="sidebar">
-                <a href="../Admin Dashboard/admin.php" class="active">
+                <a href="../Admin Dashboard/admin.php">
                     <span class="material-icons-sharp">
                         dashboard
                     </span>
@@ -58,7 +58,7 @@
                 <a href="../templates/multi_upload.php">
                     <span class="fa fa-upload">
                     </span>
-                    <h3>Multi_Upload</h3>
+                    <h3>Data Store</h3>
                 </a>
                 <a href="../templates/list_upload.php">
                     <span class="material-icons-sharp">
@@ -72,33 +72,30 @@
                     </span>
                     <h3>Assessment</h3>
                 </a>
-                <a href="../templates/query_tb.php">
+                <!-- <a href="../templates/query_tb.php">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
                     <h3>Query Data</h3>
-                </a>
-
-
-                <!-- test input staff data into database  -->
-
-                <!-- <a href="../templates/input_data.php">
-                    <span class="#">
-                    </span>
-                    <h3>Input Data</h3>
                 </a> -->
-                <!-- end insert staff data into database  -->
 
-
-
-
-
-                <a href="../templates/login.php">
-                    <span class="material-icons-sharp">
-                        add
+                <a href="../templates/user_management.php">
+                    <span class="fa fa-user-circle">
                     </span>
-                    <h3>New Login</h3>
+                    <h3>User Mgt</h3>
                 </a>
+                <a href="../templates/todo_management.php" class="active">
+                    <span class="fa fa-list-alt">
+                    </span>
+                    <h3>To-do List</h3>
+                </a>
+                <a href="../templates/stock_management.php">
+                    <span class="fa fa-briefcase">
+                    </span>
+                    <h3>Stock Mgt</h3>
+                </a>
+
+
                 <a href="../templates/logout.php">
                     <span class="material-icons-sharp">
                         logout
@@ -109,10 +106,46 @@
         </aside>
         <main>
             <div class="container2">
-                <div class="back_button">
-                    <a href="../Admin Dashboard/admin.php" class="back-button">
-                        <i class="fa fa-chevron-circle-left" style="font-size: 28px">Back</i>
-                    </a>
+                <h1 class="h1">User Management</h1>
+                <div class="analyse">
+                    <div class="sales">
+                        <a href="../templates/task.php">
+                            <div class="status">
+                                <div class="info">
+                                    <h1>Task</h1>
+                                </div>
+                                <div>
+                                    <img src="../Admin Dashboard/images/task.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="visits">
+                        <a href="../templates/add_task_user.php">
+                            <div class="status">
+                                <div class="info">
+                                    <h2>Add Task</h2>
+                                    <h1>To User</h1>
+                                </div>
+                                <div>
+                                    <img src="../Admin Dashboard/images/task.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="visits">
+                        <a href="../templates/add_task_team.php">
+                            <div class="status">
+                                <div class="info">
+                                    <h2>Add Task</h2>
+                                    <h1>To Team</h1>
+                                </div>
+                                <div>
+                                    <img src="../Admin Dashboard/images/task.png">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
@@ -138,7 +171,7 @@
                         <small class="text-muted">Admin</small>
                     </div>
                     <div class="profile-photo">
-                        <img src="../images/profile.jpg">
+                        <img src="../Admin Dashboard/images/profile.jpg">
                     </div>
                 </div>
 
@@ -147,11 +180,9 @@
 
             <div class="user-profile">
                 <div class="logo">
-                    <a href="https://ftb.com.kh/en/">
-                        <img src="../images/profile.jpg">
-                        <h2>FTB Bank </h2>
-                        <p>Welcome to FTB Bank</p>
-                    </a>
+                    <img src="../Admin Dashboard/images/profile.jpg">
+                    <h2>FTB Bank</h2>
+                    <p>Welcome to FTB Bank</p>
                 </div>
             </div>
 
